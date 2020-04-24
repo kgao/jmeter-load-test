@@ -37,3 +37,7 @@ Run the Shutdown client to stop a CLI mode instance abruptly
 
 4. Generate Reports (Save Service configuration, Summary.CVS, reportgenerator.properties)
   Tools > Genereate HTML Report
+
+
+5. View your report online * (Github) i.e.
+https://htmlpreview.github.io/?https://github.com/kgao/jmeter-load-test/blob/master/bin/templates/CovidSafePlans/report-1/index.html
