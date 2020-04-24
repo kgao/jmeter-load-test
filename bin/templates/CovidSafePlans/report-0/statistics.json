@@ -1,0 +1,32 @@
+{
+  "HEAD /api/Messages/List" : {
+    "transaction" : "HEAD /api/Messages/List",
+    "sampleCount" : 2000,
+    "errorCount" : 655,
+    "errorPct" : 32.75,
+    "meanResTime" : 5698.707999999986,
+    "minResTime" : 295.0,
+    "maxResTime" : 14344.0,
+    "pct1ResTime" : 11204.7,
+    "pct2ResTime" : 11639.0,
+    "pct3ResTime" : 14257.0,
+    "throughput" : 128.5512276642242,
+    "receivedKBytesPerSec" : 67.35569622541458,
+    "sentKBytesPerSec" : 34.39749646484124
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 2000,
+    "errorCount" : 655,
+    "errorPct" : 32.75,
+    "meanResTime" : 5698.707999999986,
+    "minResTime" : 295.0,
+    "maxResTime" : 14344.0,
+    "pct1ResTime" : 11204.7,
+    "pct2ResTime" : 11639.0,
+    "pct3ResTime" : 14257.0,
+    "throughput" : 128.5512276642242,
+    "receivedKBytesPerSec" : 67.35569622541458,
+    "sentKBytesPerSec" : 34.39749646484124
+  }
+}

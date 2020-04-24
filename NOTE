@@ -1,7 +1,39 @@
-Test plans:
+## Apache JMeter
+
+The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
+Apache JMeter may be used to test performance both on static and dynamic resources, Web dynamic applications.
+It can be used to simulate a heavy load on a server, group of servers, network or object to test its strength or to analyze overall performance under different load types.
+
+## Test plans:
+
+0. Make sure JRE 8 is installed. https://www.oracle.com/java/technologies/javase-jre8-downloads.html
 
 1. Create test plan using GUI:
 To run JMeter, run the jmeter.bat (for Windows) or jmeter (for Unix) file. These files are found in the bin directory. After a short time, the JMeter GUI should appear.
 GUI mode should only be used for creating the test script, CLI mode (NON GUI) must be used for load testing.
 
-2.
+jmeter.bat
+run JMeter (in GUI mode by default)
+jmeterw.cmd
+run JMeter without the windows shell console (in GUI mode by default)
+jmeter-n.cmd
+drop a JMX file on this to run a CLI mode test
+jmeter-n-r.cmd
+drop a JMX file on this to run a CLI mode test remotely
+jmeter-t.cmd
+drop a JMX file on this to load it in GUI mode
+jmeter-server.bat
+start JMeter in server mode
+mirror-server.cmd
+runs the JMeter Mirror Server in CLI mode
+shutdown.cmd
+Run the Shutdown client to stop a CLI mode instance gracefully
+stoptest.cmd
+Run the Shutdown client to stop a CLI mode instance abruptly
+
+2. Add Scenario (Thread Group)
+
+3. Add Endpoints 
+
+4. Generate Reports (Save Service configuration, Summary.CVS, reportgenerator.properties)
+  Tools > Genereate HTML Report
