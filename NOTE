@@ -1,0 +1,7 @@
+Test plans:
+
+1. Create test plan using GUI:
+To run JMeter, run the jmeter.bat (for Windows) or jmeter (for Unix) file. These files are found in the bin directory. After a short time, the JMeter GUI should appear.
+GUI mode should only be used for creating the test script, CLI mode (NON GUI) must be used for load testing.
+
+2.
